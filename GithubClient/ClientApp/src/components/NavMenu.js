@@ -20,17 +20,14 @@ export class NavMenu extends Component {
           <Nav>
             <LinkContainer to={'/'} exact>
               <NavItem>
-                <Glyphicon glyph='home' /> Home
+                <Glyphicon glyph='home' /> Repos 
               </NavItem>
             </LinkContainer>
-            <LinkContainer to={'/counter'}>
+          </Nav>
+          <Nav>
+            <LinkContainer to={'/Bookmarks'} exact>
               <NavItem>
-                <Glyphicon glyph='education' /> Counter
-              </NavItem>
-            </LinkContainer>
-            <LinkContainer to={'/fetchdata'}>
-              <NavItem>
-                <Glyphicon glyph='th-list' /> Fetch data
+                <Glyphicon glyph='bookmark' /> Bookmarks 
               </NavItem>
             </LinkContainer>
           </Nav>
