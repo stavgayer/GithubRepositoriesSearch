@@ -1,6 +1,6 @@
 # GithubRepositoriesSearch
 
-Github repositories searching using Github api, React, ASP.NET Core MVC 2.1
+Github repositories searching using Github api, React, ASP.NET Core MVC 2.1 <br />
 Bookmarks are saving to .net Session state
 
 ## Requirements
